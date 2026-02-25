@@ -7,7 +7,7 @@ variable "app_name" {
 }
 
 variable "public_subnets" {
-  default = ["10.10.100.1/24", "10.10.101.0/24"]
+  default = ["10.10.100.0/24", "10.10.101.0/24"]
 }
 
 variable "private_subnets" {
