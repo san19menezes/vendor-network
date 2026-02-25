@@ -11,7 +11,7 @@ variable "public_subnets" {
 }
 
 variable "private_subnets" {
-  default = ["10.10.0.1/24", "10.10.1.0/24"]
+  default = ["10.10.0.0/24", "10.10.1.0/24"]
 }
 
 variable "availability_zones" {
